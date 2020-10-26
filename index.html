@@ -107,6 +107,11 @@
                 var $nav = $(".sticky-top");
                 $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
             });
+
+
+            $('.nav-link').on('click',function() {
+                $('.navbar-collapse').collapse('hide');
+            });
         });
     </script>
 </head>
@@ -450,7 +455,7 @@
     </div>
 
 
-    <div class="bg-red-light">
+    <div class="bg-red-light                d-none">
 
         <div class="container pt-5 pb-5 text-white">
 
@@ -467,8 +472,8 @@
                 </div>
 
                 <div class="col-md">
-                    <h3>Follow Us <i class="fa fa-circle" aria-hidden="true"></i>
-                        <i class="fa fa-circle" aria-hidden="true"></i>
+                    <h3>Follow Us <a href="https://www.facebook.com/blythvalleylabour/"><i class="fa fa-facebook-square text-white" aria-hidden="true"></i>
+                    </a>
                     </h3>
                     <h3>Join Labour</h3>
 
@@ -499,16 +504,16 @@
             <div class="col-md pb-5">
                 Website by Blyth Valley<br>
                 Labour Group<br>
-                Accessibility<br>
-                Privacy
+                <a href="https://join.labour.org.uk/"><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp;Join Labour</a><br>
+                <a href="https://www.facebook.com/blythvalleylabour/"><i class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp;Follow Us</a>
             </div>
 
             <div class="col-md pb-5">
                 Useful links:<br>
-                Northumberland Labour Group<br>
-                Blyth Town Council<br>
-                Seaton Valley Council<br>
-                Cramlington Council
+                <a href="https://www.facebook.com/Northumberlandlabourgroup/">Northumberland Labour Group</a><br>
+                <a href="https://www.blythtowncouncil.org.uk/">Blyth Town Council</a><br>
+                <a href="https://www.cramlingtontowncouncil.gov.uk/">Cramlington Town Council</a><br>
+                <a href="http://seatonvalleycommunitycouncil.gov.uk/">Seaton Valley Council</a>
             </div>
 
             <div class="col-md pb-5">
